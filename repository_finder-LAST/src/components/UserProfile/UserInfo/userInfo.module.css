@@ -1,0 +1,63 @@
+.userInfoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+
+.imageFollowers {
+  display: flex;
+  gap: 1rem;
+}
+
+.imageFollowers span {
+  padding-top: 0.6rem;
+  font-size: 0.75rem;
+  color: #a7a5a5;
+}
+
+.userImage {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+}
+
+.userInfo {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userName {
+  font-size: 0.85rem;
+  color: #a7a5a5;
+}
+
+.userBio {
+  color: #a7a5a5;
+}
+
+.userLogin {
+  font-size: 2rem;
+  display: flex;
+  gap: .5rem;
+}
+
+.userLogin a { 
+  color: black;
+  transition: transform .125s ease-in-out;
+}
+
+.userLogin a:hover {
+  transform: scale(105%);
+}
+
+.userLocation {
+  margin-top: 1rem;
+}
+
+.userLocation span {
+  font-size: 1rem;
+  color: black;
+}

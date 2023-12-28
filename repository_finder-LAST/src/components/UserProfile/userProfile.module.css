@@ -1,0 +1,31 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  justify-content: space-between;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.userInfoContainer {
+  width: 100%;
+}
+
+.repoSelectedContainer {
+  width: 100%;
+}
+
+.featuredReposContainer { 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.featuredReposTitle { 
+  color: #6C72A5;
+}

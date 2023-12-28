@@ -1,0 +1,51 @@
+.showDataContainer {
+  width: 100%;
+}
+
+.skeletonContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.skeleton {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(145deg, #dcdcdc 0%, #a8a8a8 100%);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.skeleton::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  ); /* Añade un gradiente transparente */
+  background-size: 200% 100%;
+  animation: moveBackground 2s linear infinite;
+}
+
+.notFound {
+  width: 100%;
+  text-align: center;
+}

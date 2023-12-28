@@ -1,0 +1,53 @@
+.featureRepoContainer {
+  width: 250px;
+  height: 250px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.featureRepoContainer header {
+  display: flex;
+  flex-direction: column;
+}
+
+.featureRepoContainer header span {
+  font-size: 0.85rem;
+  color: #a7a5a5;
+}
+
+.featureRepoContainer header h2 {
+  font-size: 1.2rem;
+}
+
+.featureRepoContainer header p {
+  font-size: 0.75rem;
+  color: #a7a5a5;
+  margin-top: 0.1rem;
+}
+
+.featureRepoContainer footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featureRepoStars span {
+  font-size: 0.75rem;
+  color: #a7a5a5;
+}
+
+.featureRepoContainer a {
+  color: black;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  transition: all 0.125s ease-in-out;
+}
+
+.featureRepoContainer a:hover {
+  transform: scale(115%);
+  color: #494E7A;
+}
